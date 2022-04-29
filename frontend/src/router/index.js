@@ -26,6 +26,13 @@ const routes = [
     component: function() {
       return import('../views/PageView.vue')
     }
+  },
+  {
+    path: '/updateform/:id',
+    name: 'updateform',
+    component: function() {
+      return import('../views/UpdateForm.vue')
+    }
   }
 ]
 
